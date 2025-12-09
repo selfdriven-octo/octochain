@@ -1,0 +1,15 @@
+{
+  "name": "ouro-mini",
+  "version": "0.1.0",
+  "description": "Educational 2-node Ouroboros-like blockchain in Node.js (CommonJS)",
+  "main": "node.js",
+  "scripts": {
+    "node1": "node node.js --port 4001 --name A --stake 600 --peers ws://localhost:4002",
+    "node2": "node node.js --port 4002 --name B --stake 400 --peers ws://localhost:4001",
+    "node3": "node node.js --port 4003 --name C --stake 500 --peers ws://localhost:4001,ws://localhost:4002",
+    "client": "node client.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  }
+}

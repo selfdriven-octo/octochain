@@ -1,10 +1,10 @@
 ---
 layout: default
-title: octochain Kiy - octomics
+title: Research - octochain
 permalink: /research
 ---
 
-# octochain Research
+# Research
 
 ### Node Devices
 - [Raspberry Pi 500+](https://www.raspberrypi.com/products/raspberry-pi-500-plus/)

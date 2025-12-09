@@ -1,10 +1,10 @@
 ---
 layout: default
-title: octochain Kit - octomics
+title: Kit - octochain
 permalink: /kit
 ---
 
-# octochain Kit
+# Kit
 
 ## The blockchain based network powering community octomics.
 
@@ -16,8 +16,8 @@ Works with the [selfdriven Network Infra Interface](https://www.selfdriven.netwo
 - Consolidate code and documentiation into the octochain kit.
 
 ### Resources
-- [Kits Code](https://github.com/selfdriven-octo/octomics/tree/main/docs/kits)
-- [Research](/octochain/research)
+- [Kits Code](https://github.com/selfdriven-octo/octochain/tree/main/docs/kits)
+- [Research](/research)
 
 ### Use Examples
 - MAV100 Student Run Chain

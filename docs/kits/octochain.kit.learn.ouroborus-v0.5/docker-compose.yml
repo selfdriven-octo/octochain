@@ -1,0 +1,14 @@
+version: '3.8'
+services:
+  node1:
+    build: .
+    command: sh -c "node node.js --port 4001 --name A --stake 600 --peers ws://node2:4002,ws://node3:4003 --httpPort 5001"
+    ports: ["4001:4001","5001:5001"]
+  node2:
+    build: .
+    command: sh -c "node node.js --port 4002 --name B --stake 400 --peers ws://node1:4001,ws://node3:4003 --httpPort 5002"
+    ports: ["4002:4002","5002:5002"]
+  node3:
+    build: .
+    command: sh -c "node node.js --port 4003 --name C --stake 500 --peers ws://node1:4001,ws://node2:4002 --httpPort 5003"
+    ports: ["4003:4003","5003:5003"]

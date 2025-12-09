@@ -16,4 +16,4 @@ Works with the [selfdriven Network Infra Interface](https://www.selfdriven.netwo
 
 ### Related
 
-- [octomics](https://octomics.io)
+- [octomics.io](https://octomics.io)

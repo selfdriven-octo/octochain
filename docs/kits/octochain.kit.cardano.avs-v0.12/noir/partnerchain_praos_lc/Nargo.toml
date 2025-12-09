@@ -1,0 +1,8 @@
+[package]
+name = "partnerchain_praos_lc"
+type = "bin"
+version = "0.1.0"
+authors = ["you"]
+
+[dependencies]
+# Add gadgets as needed (poseidon, keccak, ed25519, vrf) when you wire real checks
